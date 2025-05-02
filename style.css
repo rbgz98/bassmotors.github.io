@@ -115,3 +115,45 @@ footer {
   text-align: center;
   padding: 20px 0;
 }
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.car-item {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.car-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.car-item h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.car-item p {
+  margin: 5px 0;
+}
+
+.car-item a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #0077cc;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
